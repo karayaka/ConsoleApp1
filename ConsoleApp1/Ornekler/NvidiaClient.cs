@@ -22,7 +22,7 @@ public static class NvidiaClient
     // Anahtar önce ortam değişkeninden okunur; yoksa aşağıdaki değere düşer.
     // Üretimde anahtarı koda gömme — burada ders kolaylığı için duruyor.
     private const string DefaultApiKey =
-        "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";
+        "";
 
     // NVIDIA'da ücretsiz, tool-calling destekli iyi bir varsayılan.
     private const string DefaultModel = "nvidia/nemotron-3.5-lightning-30b-a3b";
